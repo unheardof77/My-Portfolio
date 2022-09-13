@@ -20,25 +20,47 @@ h3 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #dfdce3;
 }
 
 main {
     display: flex;
-    
+    max-width: 50%;
+    flex-direction: column;
 }
 
 .mainheader {
     display: flex;  
     justify-content: space-between;
-    color: black;
+    color: #dfdce3;
     padding: 1%; 
-    background-color: slategray;
+    background-color: #4abdac;
     align-items: center;  
       
 }
 
-.bodyheader {
+body header {
     display: flex;
     justify-content: center;
 }
+
+#displayproject {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    padding: 7% 100%;
+}
+
+.subprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 100vw;
+}
+
+.subprojects article {
+    display: flex;
+    flex: 1 0 50%;
+}
+
+
