@@ -94,7 +94,7 @@ article {
 }
 
 .mainImg {
-    max-width: 50%;
+    max-width: 40vw;
 }
 
 
@@ -107,7 +107,7 @@ article {
 
 .subprojects article {
     display: flex;
-    flex: 1 0 50%;
+    
 }
 
 .subimg {
@@ -132,6 +132,7 @@ article {
 
 .biopic {
     float: right;
+    max-width: 200px;
 }
 
 footer {
@@ -157,4 +158,27 @@ footer {
     padding: 20px;
     border: solid;
     background-color: #fc4a1a;
+}
+
+@media screen and (max-width: 992px) {
+    .headings{
+        display: none;
+    }
+    .runningOutOfNames{
+        flex-direction: column;
+    }
+    .subBio{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width: 360px) {
+    .mainheader{
+        flex-direction: column;
+        
+    }
+    
 }
