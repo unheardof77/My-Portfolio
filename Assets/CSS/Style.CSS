@@ -4,6 +4,7 @@
 
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    background-color: #4abdac;
 }
 
 h1 {
@@ -12,10 +13,12 @@ h1 {
 
 h2 {
     font-size: 175%;
+    
 }
 
 h3 {
     font-size: 150%;
+    position: absolute;
 }
 
 a {
@@ -25,9 +28,16 @@ a {
 
 main {
     display: flex;
-    max-width: 50%;
-    flex-direction: column;
+   /* max-width: 50%;*/
+    
 }
+
+article {
+    display: flex;
+    
+}
+
+
 
 .mainheader {
     display: flex;  
@@ -39,23 +49,60 @@ main {
       
 }
 
-body header {
+#heroimg {
     display: flex;
+    height: 500px;
+    margin-bottom: 25px;
+    background-image: url("./Coding.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    
+    
+}
+
+.headings {
+    margin: 50px 50px;
+    max-width: 20vw;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-#displayproject {
+
+
+
+
+
+
+.projects {
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
-    padding: 7% 100%;
 }
+
+
+.runningOutOfNames {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pOne {
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    position: absolute;
+}
+
+.mainImg {
+    max-width: 50%;
+}
+
 
 .subprojects {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    width: 100vw;
+    width: 80vw;
 }
 
 .subprojects article {
@@ -63,4 +110,51 @@ body header {
     flex: 1 0 50%;
 }
 
+.subimg {
+    max-height: 200px;
+}
 
+.bioGroup {
+    display: flex;
+}
+
+.bio {
+    display: flex;
+    border-color: black;
+    border-width: 5px;
+    border: double;
+}
+
+.subBio {
+    display: flex;
+    align-items: center;
+}
+
+.biopic {
+    float: right;
+}
+
+footer {
+    display: flex;
+}
+
+.styleSection{
+    display: flex;
+    
+}
+
+
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 79vw;
+    
+}
+
+.footerStyle {
+    padding: 20px;
+    border: solid;
+    background-color: #fc4a1a;
+}

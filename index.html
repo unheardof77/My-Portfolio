@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/CSS/Reset.CSS" />
-    <link rel="stylesheet" href="./Assets/CSS/Style.CSS" />
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="./Assets/CSS/Reset.CSS" />
+    <link rel="stylesheet"
+        href="./Assets/CSS/Style.CSS" />
     <title>Morgan Tolman Portfolio</title>
 </head>
 <header class="mainheader">
@@ -15,56 +20,81 @@
     </div>
     <nav>
         <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Biography</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Bio">Biography</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
         </ul>
     </nav>
 
 </header>
+
 <body>
-    <header>
-        <h2>Projects</h2>
-    </header>
+    <section id="heroimg">
+    </section>
     <main>
-        <section id="displayproject">
-            <article>
-                <h3>Project One</h3>
-            </article>
+        <section class="headings">
+            <div class="projectHeading">
+                <h2>Project</h2>
+            </div>
         </section>
-        <section class="subprojects">
-            <article>
-                <h3>Project Two</h3>
-                <img class="subimg" src="##" alt="">
-            </article>
-            <article>
-                <h3>Project Three</h3>
-                <img class="subimg" src="##" alt="">
-            </article>
-            <article>
-                <h3>Project Four</h3>
-                <img class="subimg" src="##" alt="">
-            </article>
-            <article>
-                <h3>Project Five</h3>
-                <img class="subimg" src="##" alt="">
-            </article>
-        </section>
+
+        <div id="projects" class="projects">
+            <section class="subprojects">
+                <div class="runningOutOfNames">
+                    <h3 class="pOne">Project One</h3>
+                    <img class="mainImg" src="./Assets/CSS/Project1.JPG" alt=""/>
+                    
+                    <article>
+                        <h3>Project Two</h3>
+                        <img class="subimg" src="./Assets/CSS/img-placeholder-rectangle.jpg"alt=""/>
+                    </article>
+                    <article>
+                        <h3>Project Three</h3>
+                        <img class="subimg"  src="./Assets/CSS/img-placeholder-rectangle.jpg" alt=""/>
+                    </article>
+                    <article>
+                        <h3>Project Four</h3>
+                        <img class="subimg" src="./Assets/CSS/img-placeholder-rectangle.jpg" alt=""/>
+                    </article>
+                    <article>
+                        <h3>Project Five</h3>
+                        <img class="subimg" src="./Assets/CSS/img-placeholder-rectangle.jpg" alt=""/>
+                    </article>
+                </div>
+
+            </section>
+        </div>
+        
+        
     </main>
-    <article>
-        <h2>Autobiography</h2>
-        <img src="https://via.placeholder.com/150" alt="placeholder image" />
-        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum incidunt sapiente culpa possimus beatae adipisci ea, quisquam, veniam ad illo tempore deleniti, maxime fuga mollitia. Voluptatem magnam assumenda debitis.</blockquote>
-    </article>
+    <div id="Bio" class="bioGroup">
+        <section class="headings">
+            <div>
+                <h2>Bio</h2>
+            </div>
+        </section>
+        <section class="bio">
+            <article class="subBio">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum incidunt sapiente culpa
+                possimus beatae adipisci ea, quisquam, veniam ad illo tempore deleniti, maxime fuga mollitia.
+                Voluptatem magnam assumenda debitis.</p>
+                <img src="https://via.placeholder.com/200" alt="placeholder image" class="biopic" />
+            </article>
+        </section>
+    </div>
 </body>
 <footer>
-    <h2>Contact Me</h2>
-    <ul>
-        <li>Phone:480-721-5211</li>
-        <li>Email:morgan.tolman04@gmail.com</li>
-        <li><a href="#">Github Profile</a></li>
-        <li><a href="#">Linkedin</a></li>
+    <section class="headings">
+        <h2 id="contactMe" >Contact Me</h2>
+    </section>
+    
+    <ul class="footer">
+        <li class="footerStyle">Phone:480-721-5211</li>
+        <li class="footerStyle">Email:morgan.tolman04@gmail.com</li>
+        <li class="footerStyle"><a href="#">Github Profile</a></li>
+        <li class="footerStyle"><a href="#">Linkedin</a></li>
     </ul>
-
+    
 </footer>
+
 </html>
